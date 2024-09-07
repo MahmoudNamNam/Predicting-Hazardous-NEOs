@@ -1,0 +1,15 @@
+Model: Adaboost
+Classification Report:
+               precision    recall  f1-score   support
+
+Not Hazardous       0.99      0.71      0.82     88503
+    Hazardous       0.32      0.96      0.48     12949
+
+     accuracy                           0.74    101452
+    macro avg       0.66      0.83      0.65    101452
+ weighted avg       0.91      0.74      0.78    101452
+
+ROC-AUC Score: 0.877714831206085
+Confusion Matrix:
+[[62478 26025]
+ [  550 12399]]
